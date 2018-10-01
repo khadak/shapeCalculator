@@ -1,7 +1,6 @@
-Front End Gulp Boilerplate
+Shape Calculator
 ==========================
 
-Front-end boilerplate for Gulp with everything you need to get started.
 
 * First download or clone this repo :)
 * Then run `npm install` to install dev dependencies. Use sudo if needed.
@@ -22,8 +21,3 @@ The following Node versions have been tested
 * 4.x
 * 6.x
 
-Version
-==========================
-1.4.0
-
-Thanks for everyone's support and appreciation for this project!
