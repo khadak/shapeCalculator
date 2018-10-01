@@ -28,7 +28,7 @@
           background-size: $width $height;
 }
 
-@mixin border-radius($radius: 5px) {
+@mixin border-radius($radius: 6px) {
     -moz-border-radius:    $radius;
     -webkit-border-radius: $radius;
     border-radius:         $radius;
@@ -189,3 +189,11 @@
     -moz-box-shadow:    0 0 0 1px $colorTwo, 0 0 0 2px $colorThree;
     box-shadow:         0 0 0 1px $colorTwo, 0 0 0 2px $colorThree;
 }
+
+@mixin input-element($padding: 15px, $bdr-color: rgba(0,0,0,.24), $radius: 6px) {
+    @include border-radius($radius);
+    border: 1px solid $bdr-color;
+    padding: $padding;
+    font-size: 16px;
+}
+

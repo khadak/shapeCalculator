@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    margin: 0 0 30px;
+    &__wrap {
+        background: url("../../../images/header_bg.gif") no-repeat 0 0;
+        height: 75px;
+        display: flex;
+        background-size: cover;
+    }
+    &__logo {
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+    }
+}

@@ -97,7 +97,7 @@ gulp.task('styles', function() {
                       errLogToConsole: true,
                       includePaths: [
                           'app/styles/scss/'
-                      ]
+                      ],
                 }))
                 .pipe(autoprefixer({
                    browsers: autoPrefixBrowserList,
