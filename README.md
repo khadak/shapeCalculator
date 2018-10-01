@@ -1,7 +1,6 @@
-Front End Gulp Boilerplate
+Shap Calculator App
 ==========================
 
-Front-end boilerplate for Gulp with everything you need to get started.
 
 * First download or clone this repo :)
 * Then run `npm install` to install dev dependencies. Use sudo if needed.
